@@ -3,7 +3,7 @@ Helm chart for creating ingress configuration to redirect traffic from one domai
 
 Requires nginx based ingress controller, but do not require any running pods or deployments.
 
-Syntax error in configuration will block configuration reload on the ingress controller level. See more: [Disadvantages of Using Snippets](https://docs.nginx.com/nginx-ingress-controller/configuration/ingress-resources/advanced-configuration-with-snippets/#disa)
+Syntax error in configuration will block configuration reload on the ingress controller level. See more: [Disadvantages of Using Snippets](https://docs.nginx.com/nginx-ingress-controller/configuration/ingress-resources/advanced-configuration-with-snippets/#disadvantages-of-using-snippets)
 
 See values.yaml for configuration instructions:
 
