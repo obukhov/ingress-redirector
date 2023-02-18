@@ -1,0 +1,4 @@
+Redirector OK
+
+Values:
+{{- toYaml .Values | nindent 4 }}
